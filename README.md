@@ -11,4 +11,4 @@
 by Renato Andalik
 </pre>
 
-Captura as coordenadas GPS de um arquivo de imagem e exibe uma url no Google Maps
+Captura as coordenadas GPS de um arquivo de imagem, abre o navegador e exibe no Google Maps.
