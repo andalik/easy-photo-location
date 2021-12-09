@@ -32,7 +32,7 @@ LON=$(exiftool "${FILE}" \
           | sed -e 's/deg/°/g' -e 's/ //g'
 )
 
-# Compor e exibir URL de acesso ao Google Maps 
-echo https://www.google.com/maps/place/"${LAT}${LON}"
+# Compor URL de acesso ao Google Maps e abrir navegador 
+xdg-open https://www.google.com/maps/place/"${LAT}${LON}" &
 
 exit
